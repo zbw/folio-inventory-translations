@@ -1,0 +1,180 @@
+{
+  "mtypes" : [ {
+    "id" : "0b8a8d0b-767e-4b1e-89b8-c3192dd906b0",
+    "name" : "Aufsatz",
+    "source" : "local",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:22:31.674+00:00",
+      "updatedDate" : "2021-06-22T11:22:31.674+00:00"
+    }
+  }, {
+    "id" : "778666c8-e79b-4b62-a17a-2f350e165908",
+    "name" : "Bild(ersammlung)",
+    "source" : "local",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:22:31.513+00:00",
+      "updatedDate" : "2021-06-22T11:22:31.513+00:00"
+    }
+  }, {
+    "id" : "82a25aae-1c10-4da2-896f-b0dc0feb59d9",
+    "name" : "Blindenschriftträger",
+    "source" : "local",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:22:30.586+00:00",
+      "updatedDate" : "2021-06-22T11:22:30.586+00:00"
+    }
+  }, {
+    "id" : "1a54b431-2e4f-452d-9cae-9cee66c9a892",
+    "name" : "book",
+    "source" : "folio",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:22:30.384+00:00",
+      "updatedDate" : "2022-02-21T11:51:50.608+00:00"
+    }
+  }, {
+    "id" : "5ee11d91-f7e8-481d-b079-65d708582ccc",
+    "name" : "dvd",
+    "source" : "folio",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:22:32.736+00:00",
+      "updatedDate" : "2022-02-21T11:51:50.706+00:00"
+    }
+  }, {
+    "id" : "8893c631-b898-4254-b104-25fa19e68321",
+    "name" : "E-Ressource auf Datenträger",
+    "source" : "local",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:22:30.892+00:00",
+      "updatedDate" : "2021-06-22T11:22:30.892+00:00"
+    }
+  }, {
+    "id" : "615b8413-82d5-4203-aa6e-e37984cb5ac3",
+    "name" : "electronic resource",
+    "source" : "folio",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:22:32.415+00:00",
+      "updatedDate" : "2022-02-21T11:51:50.687+00:00"
+    }
+  }, {
+    "id" : "8b7dead4-9ebf-497c-8f55-8beb89544b8e",
+    "name" : "Handschrift",
+    "source" : "local",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:22:30.733+00:00",
+      "updatedDate" : "2021-06-22T11:22:30.733+00:00"
+    }
+  }, {
+    "id" : "4c0e4f9c-4f57-4307-9ea0-ddacd5626876",
+    "name" : "Karte(nwerk)",
+    "source" : "local",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:22:29.631+00:00",
+      "updatedDate" : "2021-06-22T11:22:29.631+00:00"
+    }
+  }, {
+    "id" : "bbf8cd4a-80ce-479d-92b8-1d4f26c162a7",
+    "name" : "Lax",
+    "source" : "local",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:22:31.221+00:00",
+      "updatedDate" : "2021-06-22T11:22:31.221+00:00"
+    }
+  }, {
+    "id" : "ee6e0c3f-975b-419a-9728-049566f9f1ec",
+    "name" : "Loseblattwerk",
+    "source" : "local",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:22:29.837+00:00",
+      "updatedDate" : "2021-06-22T11:22:29.837+00:00"
+    }
+  }, {
+    "id" : "32dd9d91-be93-4e48-bd9e-e3e0f08f7d85",
+    "name" : "Mehrteilige Monografie",
+    "source" : "local",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:22:31.836+00:00",
+      "updatedDate" : "2021-06-22T11:22:31.836+00:00"
+    }
+  }, {
+    "id" : "fd6c6515-d470-4561-9c32-3e3290d4ca98",
+    "name" : "microform",
+    "source" : "folio",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:22:32.577+00:00",
+      "updatedDate" : "2022-02-21T11:51:50.667+00:00"
+    }
+  }, {
+    "id" : "27f76b9f-ddc4-4e29-b1d7-80d43c43fabd",
+    "name" : "Musiknote",
+    "source" : "local",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:22:30.049+00:00",
+      "updatedDate" : "2021-06-22T11:22:30.049+00:00"
+    }
+  }, {
+    "id" : "41d6b1e7-2eda-4a79-83fc-78fa067c982f",
+    "name" : "Objekt",
+    "source" : "local",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:22:31.099+00:00",
+      "updatedDate" : "2021-06-22T11:22:31.099+00:00"
+    }
+  }, {
+    "id" : "1ef6a0f9-6cc6-4da2-816e-9e674a9c5358",
+    "name" : "Serie",
+    "source" : "local",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:22:32.004+00:00",
+      "updatedDate" : "2021-06-22T11:22:32.004+00:00"
+    }
+  }, {
+    "id" : "dd0bf600-dbd9-44ab-9ff2-e2a61a6539f1",
+    "name" : "sound recording",
+    "source" : "folio",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:22:32.196+00:00",
+      "updatedDate" : "2022-02-21T11:51:50.648+00:00"
+    }
+  }, {
+    "id" : "d9acad2f-2aac-4b48-9097-e6ab85906b25",
+    "name" : "text",
+    "source" : "folio",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:22:32.524+00:00",
+      "updatedDate" : "2022-02-21T11:51:50.628+00:00"
+    }
+  }, {
+    "id" : "71fbd940-1027-40a6-8a48-49b44d795e46",
+    "name" : "unspecified",
+    "source" : "folio",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:22:31.382+00:00",
+      "updatedDate" : "2022-02-21T11:51:50.587+00:00"
+    }
+  }, {
+    "id" : "30b3e36a-d3b2-415e-98c2-47fbdf878862",
+    "name" : "video recording",
+    "source" : "folio",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:22:32.333+00:00",
+      "updatedDate" : "2022-02-21T11:51:50.528+00:00"
+    }
+  }, {
+    "id" : "9030eb8b-4450-46f4-9297-63100d5e69aa",
+    "name" : "Zeitschrift",
+    "source" : "local",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:22:29.419+00:00",
+      "updatedDate" : "2021-06-22T11:22:29.419+00:00"
+    }
+  }, {
+    "id" : "0e8e0c57-697b-4ba3-beeb-99fc1d6a76d5",
+    "name" : "Zeitung",
+    "source" : "local",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:22:30.210+00:00",
+      "updatedDate" : "2021-06-22T11:22:30.210+00:00"
+    }
+  } ],
+  "totalRecords" : 22
+}

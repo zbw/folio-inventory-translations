@@ -1,0 +1,176 @@
+{
+  "instanceStatuses" : [ {
+    "id" : "bac08adf-98ef-44ee-8e8a-ab76128c92c1",
+    "code" : "u",
+    "name" : "Autopsie",
+    "source" : "folio",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:21:46.388+00:00",
+      "updatedDate" : "2021-06-23T07:50:22.620+00:00",
+      "updatedByUserId" : "03df1e53-4c01-4248-bbdf-72660eb3bfe6"
+    }
+  }, {
+    "id" : "52a2ff34-2a12-420d-8539-21aa8d3cf5d8",
+    "code" : "batch",
+    "name" : "Batch Loaded",
+    "source" : "folio",
+    "metadata" : {
+      "createdDate" : "2022-02-21T11:51:53.702+00:00",
+      "updatedDate" : "2022-02-21T11:51:53.702+00:00"
+    }
+  }, {
+    "id" : "8bc58a74-b04e-45a4-8c5d-64568a5f0d55",
+    "code" : "v",
+    "name" : "Bibliografisch vollständig",
+    "source" : "local",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:21:46.520+00:00",
+      "updatedDate" : "2021-06-22T11:21:46.520+00:00"
+    }
+  }, {
+    "id" : "9634a5ab-9228-4703-baf2-4d12ebc77d56",
+    "code" : "cat",
+    "name" : "Cataloged",
+    "source" : "folio",
+    "metadata" : {
+      "createdDate" : "2022-02-21T11:51:53.687+00:00",
+      "updatedDate" : "2022-02-21T11:51:53.687+00:00"
+    }
+  }, {
+    "id" : "3f378ff8-a474-4232-85b1-977650abba83",
+    "code" : "i",
+    "name" : "Datensatz für internen Gebrauch",
+    "source" : "local",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:21:46.583+00:00",
+      "updatedDate" : "2021-06-22T11:21:46.583+00:00"
+    }
+  }, {
+    "id" : "5dc8b06f-6b85-4a64-9825-811d5c0660a8",
+    "code" : "a",
+    "name" : "Erwerbungsdatensatz",
+    "source" : "local",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:21:46.553+00:00",
+      "updatedDate" : "2021-06-22T11:21:46.553+00:00"
+    }
+  }, {
+    "id" : "449a7305-0bfc-434d-ba93-1ce916f706b1",
+    "code" : "x",
+    "name" : "Fremddatensatz",
+    "source" : "local",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:21:46.490+00:00",
+      "updatedDate" : "2021-06-22T11:21:46.490+00:00"
+    }
+  }, {
+    "id" : "775bdbe0-ba63-4d51-aa78-04b2ee81bd27",
+    "code" : "-X-",
+    "name" : "Inhalt oder Struktur ist zu überprüfen",
+    "source" : "local",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:21:47.246+00:00",
+      "updatedDate" : "2021-06-22T11:21:47.246+00:00"
+    }
+  }, {
+    "id" : "0c81eb93-f2f1-477a-9bbb-a0b18b094f8f",
+    "code" : "y",
+    "name" : "Katalogisat nach Autopsie im Vorläufigkeitsstatus",
+    "source" : "local",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:21:46.757+00:00",
+      "updatedDate" : "2021-06-22T11:21:46.757+00:00"
+    }
+  }, {
+    "id" : "8867ba26-c5da-4a5d-851d-976429f83a45",
+    "code" : "r",
+    "name" : "Katalogisat ohne Autopsie",
+    "source" : "local",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:21:46.675+00:00",
+      "updatedDate" : "2021-06-22T11:21:46.675+00:00"
+    }
+  }, {
+    "id" : "287f32a7-434b-4a89-a7f3-d12c8d6bf81c",
+    "code" : "k",
+    "name" : "Lösch-Status",
+    "source" : "local",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:21:46.612+00:00",
+      "updatedDate" : "2021-06-22T11:21:46.612+00:00"
+    }
+  }, {
+    "id" : "e1700e6a-f606-4464-a9af-f0849890f17e",
+    "code" : "n",
+    "name" : "Maschinell konvertierte Daten",
+    "source" : "local",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:21:46.646+00:00",
+      "updatedDate" : "2021-06-22T11:21:46.646+00:00"
+    }
+  }, {
+    "id" : "b7ca8a3f-e818-4253-8461-55f198eaf101",
+    "code" : "B",
+    "name" : "Maschinelle Einspielung, möglicherweise dublett",
+    "source" : "local",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:21:46.961+00:00",
+      "updatedDate" : "2021-06-22T11:21:46.961+00:00"
+    }
+  }, {
+    "id" : "f5cc2ab6-bb92-4cab-b83f-5a3d09261a41",
+    "code" : "none",
+    "name" : "Not yet assigned",
+    "source" : "folio",
+    "metadata" : {
+      "createdDate" : "2022-02-21T11:51:53.697+00:00",
+      "updatedDate" : "2022-02-21T11:51:53.697+00:00"
+    }
+  }, {
+    "id" : "2a340d34-6b70-443a-bb1b-1b8d1c65d862",
+    "code" : "other",
+    "name" : "Other",
+    "source" : "folio",
+    "metadata" : {
+      "createdDate" : "2022-02-21T11:51:53.678+00:00",
+      "updatedDate" : "2022-02-21T11:51:53.678+00:00"
+    }
+  }, {
+    "id" : "daf2681c-25af-4202-a3fa-e58fdf806183",
+    "code" : "temp",
+    "name" : "Temporary",
+    "source" : "folio",
+    "metadata" : {
+      "createdDate" : "2022-02-21T11:51:53.694+00:00",
+      "updatedDate" : "2022-02-21T11:51:53.694+00:00"
+    }
+  }, {
+    "id" : "26f5208e-110a-4394-be29-1569a8c84a65",
+    "code" : "uncat",
+    "name" : "Uncataloged",
+    "source" : "folio",
+    "metadata" : {
+      "createdDate" : "2022-02-21T11:51:53.690+00:00",
+      "updatedDate" : "2022-02-21T11:51:53.690+00:00"
+    }
+  }, {
+    "id" : "07ae89f4-e760-421a-8c74-c69f643881dc",
+    "code" : "t",
+    "name" : "Verwaltungsdatensatz",
+    "source" : "local",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:21:46.712+00:00",
+      "updatedDate" : "2021-06-22T11:21:46.712+00:00"
+    }
+  }, {
+    "id" : "c8678080-990d-4633-95cb-56d06bbf108f",
+    "code" : "-N-",
+    "name" : "Zunächst verdeckt eingespieltes Novum",
+    "source" : "local",
+    "metadata" : {
+      "createdDate" : "2021-06-22T11:21:47.115+00:00",
+      "updatedDate" : "2021-06-22T11:21:47.115+00:00"
+    }
+  } ],
+  "totalRecords" : 19
+}
