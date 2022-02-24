@@ -1,0 +1,18 @@
+name: Check *.tsv
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  tsvlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: sudo apt install libtext-csv-perl
+      - name: Check translated-files/*.tsv
+        run: |
+          for f in translated-files/*.tsv
+          do
+            echo "$f"
+            cat "$f" | perl .github/workflows/tsvlint.pl
+          done
