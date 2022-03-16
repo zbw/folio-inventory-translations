@@ -1,0 +1,57 @@
+#!/bin/sh
+
+# update-translations <OKAPI> <TENANT> <OKAPIUSERNAME> <OKAPIPASSWORD>
+# Or set environment variables $OKAPI $TENANT $OKAPIUSERNAME $OKAPIPASSWORD and
+# call update-translations without arguments.
+
+set -e
+
+: ${OKAPI:=$1}
+: ${OKAPI:=http://localhost:8081}
+: ${TENANT:=$2}
+: ${TENANT:=diku}
+: ${OKAPIUSERNAME:=$3}
+: ${OKAPIUSERNAME:=diku_admin}
+: ${OKAPIPASSWORD:=$4}
+: ${OKAPIPASSWORD:=admin}
+
+TOKEN=$( curl -sS -D - -H "X-Okapi-Tenant: $TENANT" -H "Content-type: application/json" \
+  -d "{\"tenant\":\"$TENANT\",\"username\":\"$OKAPIUSERNAME\",\"password\":\"$OKAPIPASSWORD\"}" \
+  "$OKAPI/authn/login" \
+  | grep -i "^x-okapi-token: " | tr -d "\n\r" )
+
+echo "TOKEN=$TOKEN"
+
+process ()
+{
+  unchanged=0
+  updated=0
+  while read line
+  do
+    if [ -z "$line" ]
+    then
+      continue
+    fi
+    id=$(echo "$line" | cut -f 1)
+    newname=$(echo "$line" | cut -f 3)
+    json=$(curl -sS -H "X-Okapi-Tenant: $TENANT" -H "$TOKEN" "$OKAPI$1/$id")
+    oldname=$(echo "$json" | jq -r '.name')
+    if [ "$oldname" = "$newname" ]
+    then
+      unchanged=$(( unchanged + 1 ))
+      continue
+    fi
+    json=$(echo "$json" | jq --arg newname "$newname" '.name=$newname' )
+    curl -sS -H "X-Okapi-Tenant: $TENANT" -H "$TOKEN" -H "Content-Type: application/json" \
+         -X PUT -d "$json" "$OKAPI$1/$id"
+    updated=$(( updated + 1 ))
+  done
+  echo "$updated updated, $unchanged unchanged for $1"
+}
+
+process /alternative-title-types < translated-files/alternativeTitleTypes_translated.tsv
+process /holdings-types          < translated-files/holdingsTypes_translated.tsv
+process /modes-of-issuance       < translated-files/issuanceModes_translated.tsv
+process /material-types          < translated-files/mtypes_translated.tsv
+process /nature-of-content-terms < translated-files/natureOfContentTerms_translated.tsv
+
