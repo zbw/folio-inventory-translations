@@ -1,0 +1,57 @@
+0d9b1c3d-2d13-4f18-9472-cc1b91bf1752	audio -- audio belt	Audio - Audio Belt
+5642320a-2ab9-475c-8ca2-4af7551cf296	audio -- audio cartridge	Audio - Audiocartridge
+485e3e1d-9f46-42b6-8c65-6bb7bd4b37f8	audio -- audio cylinder	Audio - Phonographenzylinder
+5cb91d15-96b1-4b8a-bf60-ec310538da66	audio -- audio disc	Audio - Audiodisk
+7fde4e21-00b5-4de4-a90a-08a84a601aeb	audio -- audio roll	Audio - Notenrolle
+6a679992-b37e-4b57-b6ea-96be6b51d2b4	audio -- audio wire reel	Audio - Audio Wire Reel
+6d749f00-97bd-4eab-9828-57167558f514	audio -- audiocassette	Audio - Audiokassette
+7612aa96-61a6-41bd-8ed2-ff1688e794e1	audio -- audiotape reel	Audio - Tonbandspule
+a3549b8c-3282-4a14-9ec3-c1cf294043b9	audio -- other	Audio - Sonstige
+5bfb7b4f-9cd5-4577-a364-f95352146a56	audio -- sound track reel	Audio - Tonspurspule
+549e3381-7d49-44f6-8232-37af1cb5ecf3	computer -- computer card	Computermedien - Speicherkarte
+88f58dc0-4243-4c6b-8321-70244ff34a83	computer -- computer chip cartridge	Computermedien - Computerchip-Cartridge
+ac9de2b9-0914-4a54-8805-463686a5489e	computer -- computer disc	Computermedien - Computerdisk
+e05f2613-05df-4b4d-9292-2ee9aa778ecc	computer -- computer disc cartridge	Computermedien - Computerdisk-Cartridge
+f4f30334-568b-4dd2-88b5-db8401607daf	computer -- computer tape cartridge	Computermedien - Magnetbandcartridge
+e5aeb29a-cf0a-4d97-8c39-7756c10d423c	computer -- computer tape cassette	Computermedien - Magnetbandkassette
+d16b19d1-507f-4a22-bb8a-b3f713a73221	computer -- computer tape reel	Computermedien - Magnetbandspule
+f5e8210f-7640-459b-a71f-552567f92369	computer -- online resource	Computermedien - Online-Ressource
+fe1b9adb-e0cf-4e05-905f-ce9986279404	computer -- other	Computermedien - Sonstige
+cb3004a3-2a85-4ed4-8084-409f93d6d8ba	microform -- aperture card	Mikroform - Mikrofilmlochkarte
+fc3e32a0-9c85-4454-a42e-39fca788a7dc	microform -- microfiche	Mikroform - Mikrofiche
+b72e66e2-d946-4b01-a696-8fab07051ff8	microform -- microfiche cassette	Mikroform - Mikrofichekassette
+fc9bfed9-2cb0-465f-8758-33af5bba750b	microform -- microfilm cartridge	Mikroform - Mikrofilm-Cartridge
+b71e5ec6-a15d-4261-baf9-aea6be7af15b	microform -- microfilm cassette	Mikroform - Mikrofilmkassette
+7bfe7e83-d4aa-46d1-b2a9-f612b18d11f4	microform -- microfilm reel	Mikroform - Mikrofilmspule
+cb96199a-21fb-4f11-b003-99291d8c9752	microform -- microfilm roll	Mikroform - Mikrofilmrolle
+33009ba2-b742-4aab-b592-68b27451e94f	microform -- microfilm slip	Mikroform - Mikrofilmstreifen
+788aa9a6-5f0b-4c52-957b-998266ee3bd3	microform -- microopaque	Mikroform - Lichtundurchlässiger Mikrofiche
+a0f2612b-f24f-4dc8-a139-89c3da5a38f1	microform -- other	Mikroform - Sonstige
+b1c69d78-4afb-4d8b-9624-8b3cfa5288ad	microscopic -- microscope slide	Mikroskopisch - Objektträger
+55d3b8aa-304e-4967-8b78-55926d7809ac	microscopic -- other	Mikroskopisch - Sonstige
+6bf2154b-df6e-4f11-97d0-6541231ac2be	projected image -- film cartridge	Projizierbar - Filmdose
+47b226c0-853c-40f4-ba2e-2bd5ba82b665	projected image -- film cassette	Projizierbar - Filmkassette
+55a66581-3921-4b50-9981-4fe53bf35e7f	projected image -- film reel	Projizierbar - Filmspule
+f0e689e8-e62d-4aac-b1c1-198ac9114aca	projected image -- film roll	Projizierbar - Filmrolle
+53f44ae4-167b-4cc2-9a63-4375c0ad9f58	projected image -- filmslip	Projizierbar - Filmstreifen
+8e04d356-2645-4f97-8de8-9721cf11ccef	projected image -- filmstrip	Projizierbar - Filmstreifen für Einzelbildvorführung
+f7107ab3-9c09-4bcb-a637-368f39e0b140	projected image -- filmstrip cartridge	Projizierbar - Filmstreifen-Cartridge
+9166e7c9-7edb-4180-b57e-e495f551297f	projected image -- other	Projizierbar - Sonstige
+eb860cea-b842-4a8b-ab8d-0739856f0c2c	projected image -- overhead transparency	Projizierbar - Overheadfolie
+b2b39d2f-856b-4419-93d3-ed1851f91b9f	projected image -- slide	Projizierbar - Dia
+7c9b361d-66b6-4e4c-ae4b-2c01f655612c	stereographic -- other	Stereografisch - Sonstige
+e62f4860-b3b0-462e-92b6-e032336ab663	stereographic -- stereograph card	Stereografisch - Stereobild
+c3f41d5e-e192-4828-805c-6df3270c1910	stereographic -- stereograph disc	Stereografisch - Stereografische Disk
+5fa3e09f-2192-41a9-b4bf-9eb8aef0af0a	unmediated -- card	Ohne Hilfsmittel zu benutzen - Karte
+affd5809-2897-42ca-b958-b311f3e0dcfb	unmediated -- flipchart	Ohne Hilfsmittel zu benutzen - Flipchart
+926662e9-2486-4bb9-ba3b-59bd2e7f2a0c	unmediated -- object	Ohne Hilfsmittel zu benutzen - Gegenstand
+2802b285-9f27-4c86-a9d7-d2ac08b26a79	unmediated -- other	Ohne Hilfsmittel zu benutzen - Sonstige
+68e7e339-f35c-4be2-b161-0b94d7569b7b	unmediated -- roll	Ohne Hilfsmittel zu benutzen - Rolle
+5913bb96-e881-4087-9e71-33a43f68e12e	unmediated -- sheet	Ohne Hilfsmittel zu benutzen - Blatt
+8d511d33-5e85-4c5d-9bce-6e3c9cd0c324	unmediated -- volume	Ohne Hilfsmittel zu benutzen - Band
+98f0caa9-d38e-427b-9ec4-454de81a94d7	unspecified -- unspecified	Nicht spezifiziert - Nicht spezifiziert
+e3179f91-3032-43ee-be97-f0464f359d9c	video -- other	Video - Sonstige
+132d70db-53b3-4999-bd79-0fac3b8b9b98	video -- video cartridge	Video - Videocartridge
+431cc9a0-4572-4613-b267-befb0f3d457f	video -- videocassette	Video - Videokassette
+7f857834-b2e2-48b1-8528-6a1fe89bf979	video -- videodisc	Video - Videodisk
+ba0d7429-7ccf-419d-8bfb-e6a1200a8d20	video -- videotape reel	Video - Videobandspule
