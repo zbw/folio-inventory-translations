@@ -24,6 +24,7 @@ echo "TOKEN=$TOKEN"
 
 process ()
 {
+  notranslation=0
   unchanged=0
   updated=0
   while read line
@@ -34,7 +35,20 @@ process ()
     fi
     id=$(echo "$line" | cut -f 1)
     newname=$(echo "$line" | cut -f 3)
-    json=$(curl -sS -H "X-Okapi-Tenant: $TENANT" -H "$TOKEN" "$OKAPI$1/$id")
+    if [ "x$newname" = "x" ]
+    then
+      notranslation=$(( notranslation + 1 ))
+      continue
+    fi
+    json=$(curl --dump-header dump-header -sS -H "X-Okapi-Tenant: $TENANT" -H "$TOKEN" "$OKAPI$1/$id")
+    header=$(cat dump-header)
+    rm dump-header
+    if echo "$header" | head -1 | grep -v -q 200
+    then
+      echo "$header"
+      echo "$json"
+      break
+    fi
     oldname=$(echo "$json" | jq -r '.name')
     if [ "$oldname" = "$newname" ]
     then
@@ -46,11 +60,11 @@ process ()
          -X PUT -d "$json" "$OKAPI$1/$id"
     updated=$(( updated + 1 ))
   done
-  echo "$updated updated, $unchanged unchanged for $1"
+  echo "$updated updated, $unchanged unchanged, $notranslation without translation for $1"
 }
 
 process /alternative-title-types < translated-files/alternativeTitleTypes_translated.tsv
-process /contributor_types       < translated-files/contributerTypes_translated.tsv
+process /contributor-types       < translated-files/contributorTypes_translated.tsv
 process /holdings-types          < translated-files/holdingsTypes_translated.tsv
 process /instance_formats        < translated-files/instanceFormats_translated.tsv
 process /instance_note_types     < translated-files/instanceNotesTypes.tsv
