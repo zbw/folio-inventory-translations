@@ -66,9 +66,9 @@ process ()
 process /alternative-title-types < translated-files/alternativeTitleTypes_translated.tsv
 process /contributor-types       < translated-files/contributorTypes_translated.tsv
 process /holdings-types          < translated-files/holdingsTypes_translated.tsv
-process /instance_formats        < translated-files/instanceFormats_translated.tsv
-process /instance_note_types     < translated-files/instanceNotesTypes.tsv
-process /instance_types          < translated-files/instanceTypes_translated.tsv
+process /instance-formats        < translated-files/instanceFormats_translated.tsv
+process /instance-note-types     < translated-files/instanceNotesTypes.tsv
+process /instance-types          < translated-files/instanceTypes_translated.tsv
 process /modes-of-issuance       < translated-files/issuanceModes_translated.tsv
 process /material-types          < translated-files/mtypes_translated.tsv
 process /nature-of-content-terms < translated-files/natureOfContentTerms_translated.tsv
