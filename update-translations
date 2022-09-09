@@ -75,4 +75,4 @@ process /instance-types          < translated-files/instanceTypes_translated.tsv
 process /modes-of-issuance       < translated-files/issuanceModes_translated.tsv
 process /material-types          < translated-files/mtypes_translated.tsv
 process /nature-of-content-terms < translated-files/natureOfContentTerms_translated.tsv
-
+process /instance-statuses       < translated-files/instanceStatuses_translated.tsv
