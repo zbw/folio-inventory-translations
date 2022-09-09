@@ -55,9 +55,12 @@ process ()
       unchanged=$(( unchanged + 1 ))
       continue
     fi
-    json=$(echo "$json" | jq --arg newname "$newname" '.name=$newname' )
+    # The upload.json file is needed because curl for Windows incorrectly encodes
+    # UTF-8 characters like umlauts when using -d "$json"
+    echo "$json" | jq --arg newname "$newname" '.name=$newname' > upload.json
     curl -sS -H "X-Okapi-Tenant: $TENANT" -H "$TOKEN" -H "Content-Type: application/json" \
-         -X PUT -d "$json" "$OKAPI$1/$id"
+         -X PUT -d '@upload.json' "$OKAPI$1/$id"
+    rm upload.json
     updated=$(( updated + 1 ))
   done
   echo "$updated updated, $unchanged unchanged, $notranslation without translation for $1"
