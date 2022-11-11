@@ -60,14 +60,14 @@ process ()
     echo "$json" | jq --arg newname "$newname" '.name=$newname' > upload.json
     curl -sS -H "X-Okapi-Tenant: $TENANT" -H "$TOKEN" -H "Content-Type: application/json" \
          -X PUT -d '@upload.json' "$OKAPI$1/$id"
-    rm upload.json
+    # rm upload.json
     updated=$(( updated + 1 ))
   done
   echo "$updated updated, $unchanged unchanged, $notranslation without translation for $1"
 }
 
 process /alternative-title-types < translated-files/alternativeTitleTypes_translated.tsv
-process /contributor-types       < translated-files/contributorTypes_translated.tsv
+process /contributor-types       < translated-files/contributorTypes_translated_k10plus.tsv
 process /holdings-types          < translated-files/holdingsTypes_translated.tsv
 process /instance-formats        < translated-files/instanceFormats_translated.tsv
 process /instance-note-types     < translated-files/instanceNotesTypes.tsv
