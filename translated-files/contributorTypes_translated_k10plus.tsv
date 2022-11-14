@@ -105,7 +105,7 @@ b1e95783-5308-46b2-9853-bd7015c1774b	Editor of moving image work	CutterIn
 201a378e-23dd-4aab-bfe0-e5bc3c855f9c	Electrotyper	
 61afcb8a-8c53-445b-93b9-38e799721f82	Enacting jurisdiction	Normerlassende Gebietskörperschaft
 366821b5-5319-4888-8867-0ffb2d7649d1	Engineer	
-af9a58fa-95df-4139-a06d-ecdab0b2317e	Engraver	GraveurIn
+af9a58fa-95df-4139-a06d-ecdab0b2317e	Engraver	StecherIn
 6ccd61f4-c408-46ec-b359-a761b4781477	Etcher	RadiererIn
 54f69767-5712-47aa-bdb7-39c31aa8295e	Event place	
 764c208a-493f-43af-8db7-3dd48efca45c	Expert	
@@ -155,7 +155,7 @@ a2231628-6a5a-48f4-8eac-7e6b0328f6fe	Manufacture place
 d669122b-c021-46f5-a911-1e9df10b6542	Manufacturer	HerstellerIn
 515caf91-3dde-4769-b784-50c9e23400d5	Marbler	
 168b6ff3-7482-4fd0-bf07-48172b47876c	Markup editor	
-a7a25290-226d-4f81-b780-2efc1f7dfd26	Medium	Medium
+a7a25290-226d-4f81-b780-2efc1f7dfd26	Medium	Channel
 ee04a129-f2e4-4fd7-8342-7a73a0700665	Metadata contact	
 8af7e981-65f9-4407-80ae-1bacd11315d5	Metal-engraver	
 002c0eef-eb77-4c0b-a38e-117a09773d59	Minute taker	ProtokollantIn
@@ -183,7 +183,7 @@ e38a0c64-f1d3-4b03-a364-34d6b402841c	Papermaker	PapiermacherIn
 68dcc037-901e-46a9-9b4e-028548cd750f	Plaintiff-appellant	
 45747710-39dc-47ec-b2b3-024d757f997e	Plaintiff-appellee	
 d30f5556-6d79-4980-9528-c48ef60f3b31	Platemaker	DruckformherstellerIn
-08cb225a-302c-4d5a-a6a3-fa90850babcd	Praeses	DisputationsleiterIn
+08cb225a-302c-4d5a-a6a3-fa90850babcd	Praeses	Praeses
 d04782ec-b969-4eac-9428-0eb52d97c644	Presenter	PräsentatorIn
 02c1c664-1d71-4f7b-a656-1abf1209848f	Printer	DruckerIn
 fd0a47ec-58ce-43f6-8ecc-696ec17a98ab	Printer of plates	
@@ -205,7 +205,7 @@ a60314d4-c3c6-4e29-92fa-86cc6ace4d56	Publisher	Verlag
 4f7c335d-a9d9-4f38-87ef-9a5846b63e7f	Puppeteer	PuppenspielerIn
 fcfc0b86-b083-4ab8-8a75-75a66638ed2e	Radio director	HörfunkregisseurIn
 c96df2ce-7b00-498a-bf37-3011f3ef1229	Radio producer	HörfunkproduzentIn
-ab7a95da-590c-4955-b03b-9d8fbc6c1fe6	Recording engineer	ToningenieurIn
+ab7a95da-590c-4955-b03b-9d8fbc6c1fe6	Recording engineer	AufnahmetechnikerIn
 b388c02a-19dc-4948-916d-3688007b9a2c	Recordist	TonmeisterIn
 b38c4e20-9aa0-43f4-a1a0-f547e54873f7	Redaktor	
 6b566426-f325-4182-ac31-e1c4e0b2aa19	Renderer	
