@@ -67,7 +67,7 @@ process ()
 }
 
 process /alternative-title-types < translated-files/alternativeTitleTypes_translated.tsv
-process /contributor-types       < translated-files/contributorTypes_translated_k10plus.tsv
+process /contributor-types       < translated-files/contributorTypes_translated_codes.tsv
 process /holdings-types          < translated-files/holdingsTypes_translated.tsv
 process /instance-formats        < translated-files/instanceFormats_translated.tsv
 process /instance-note-types     < translated-files/instanceNotesTypes.tsv
