@@ -78,3 +78,5 @@ process /nature-of-content-terms          < translated-files/natureOfContentTerm
 process /instance-statuses                < translated-files/instanceStatuses_translated.tsv
 process /contributor-name-types           < translated-files/contributorNameTypes_translated.tsv
 process /electronic-access-relationships  < translated-files/electronicAccessRelationships_translated.tsv
+process /holdings-note-types              < translated-files/holdingsNoteTypes_translated.tsv.tsv
+process /item-note-types                  < translated-files/itemNoteTypes_translated.tsv.tsv
