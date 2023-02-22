@@ -80,3 +80,4 @@ process /contributor-name-types           < translated-files/contributorNameType
 process /electronic-access-relationships  < translated-files/electronicAccessRelationships_translated.tsv
 process /holdings-note-types              < translated-files/holdingsNoteTypes_translated.tsv
 process /item-note-types                  < translated-files/itemNoteTypes_translated.tsv
+process /identifier-types                 < translated-files/identifierTypes_translated.tsv
