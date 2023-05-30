@@ -43,6 +43,12 @@ process ()
     json=$(curl --dump-header dump-header -sS -H "X-Okapi-Tenant: $TENANT" -H "$TOKEN" "$OKAPI$1/$id")
     header=$(cat dump-header)
     rm dump-header
+    if echo "$header" | head -1 | grep -q 404
+    then
+      echo "$OKAPI$1/$id not found on server"
+      norecord=$(( norecord + 1 ))
+      continue
+    fi
     if echo "$header" | head -1 | grep -v -q 200
     then
       echo "$header"
@@ -63,7 +69,7 @@ process ()
     # rm upload.json
     updated=$(( updated + 1 ))
   done
-  echo "$updated updated, $unchanged unchanged, $notranslation without translation for $1"
+  echo "$updated updated, $unchanged unchanged, $norecord without record, $notranslation without translation for $1"
 }
 
 process /alternative-title-types          < translated-files/alternativeTitleTypes_translated.tsv
