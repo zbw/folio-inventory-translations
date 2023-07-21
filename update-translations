@@ -72,18 +72,18 @@ process ()
   echo "$updated updated, $unchanged unchanged, $norecord without record, $notranslation without translation for $1"
 }
 
-process /alternative-title-types          < translated-files/alternativeTitleTypes_translated.tsv
-process /contributor-types                < translated-files/contributorTypes_translated_codes.tsv
-process /holdings-types                   < translated-files/holdingsTypes_translated.tsv
-process /instance-formats                 < translated-files/instanceFormats_translated.tsv
-process /instance-note-types              < translated-files/instanceNotesTypes_translated.tsv
-process /instance-types                   < translated-files/instanceTypes_translated.tsv
-process /modes-of-issuance                < translated-files/issuanceModes_translated.tsv
-process /material-types                   < translated-files/mtypes_translated.tsv
-process /nature-of-content-terms          < translated-files/natureOfContentTerms_translated.tsv
-process /instance-statuses                < translated-files/instanceStatuses_translated.tsv
-process /contributor-name-types           < translated-files/contributorNameTypes_translated.tsv
-process /electronic-access-relationships  < translated-files/electronicAccessRelationships_translated.tsv
-process /holdings-note-types              < translated-files/holdingsNoteTypes_translated.tsv
-process /item-note-types                  < translated-files/itemNoteTypes_translated.tsv
-process /identifier-types                 < translated-files/identifierTypes_translated.tsv
+process /alternative-title-types          < translated-files/alternativeTitleTypes.tsv
+process /contributor-types                < translated-files/contributorTypes_codes.tsv
+process /holdings-types                   < translated-files/holdingsTypes.tsv
+process /instance-formats                 < translated-files/instanceFormats.tsv
+process /instance-note-types              < translated-files/instanceNotesTypes.tsv
+process /instance-types                   < translated-files/instanceTypes.tsv
+process /modes-of-issuance                < translated-files/issuanceModes.tsv
+process /material-types                   < translated-files/mtypes.tsv
+process /nature-of-content-terms          < translated-files/natureOfContentTerms.tsv
+process /instance-statuses                < translated-files/instanceStatuses.tsv
+process /contributor-name-types           < translated-files/contributorNameTypes.tsv
+process /electronic-access-relationships  < translated-files/electronicAccessRelationships.tsv
+process /holdings-note-types              < translated-files/holdingsNoteTypes.tsv
+process /item-note-types                  < translated-files/itemNoteTypes.tsv
+process /identifier-types                 < translated-files/identifierTypes.tsv
