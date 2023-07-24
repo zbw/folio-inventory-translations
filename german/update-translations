@@ -72,20 +72,20 @@ process ()
   echo "$updated updated, $unchanged unchanged, $norecord without record, $notranslation without translation for $1"
 }
 
-process /alternative-title-types          < translated-files/alternative-title-types.tsv
-process /contributor-types                < translated-files/contributor-types_codes.tsv
-process /holdings-types                   < translated-files/holdings-types.tsv
-process /instance-formats                 < translated-files/instance-formats.tsv
-process /instance-note-types              < translated-files/instance-note-types.tsv
-process /instance-types                   < translated-files/instance-types.tsv
-process /modes-of-issuance                < translated-files/modes-of-issuance.tsv
-process /material-types                   < translated-files/material-types.tsv
-process /nature-of-content-terms          < translated-files/nature-of-content-terms.tsv
-process /instance-statuses                < translated-files/instance-statuses.tsv
-process /contributor-name-types           < translated-files/contributor-name-types.tsv
-process /electronic-access-relationships  < translated-files/electronic-access-relationships.tsv
-process /holdings-note-types              < translated-files/holdings-note-types.tsv
-process /item-note-types                  < translated-files/item-note-types.tsv
-process /identifier-types                 < translated-files/identifier-types.tsv
-process /call-number-types                < translated-files/call-number-types.tsv
-process /item-damaged-statuses            < translated-files/item-damaged-statuses.tsv
+process /alternative-title-types          < alternative-title-types.tsv
+process /contributor-types                < contributor-types_codes.tsv
+process /holdings-types                   < holdings-types.tsv
+process /instance-formats                 < instance-formats.tsv
+process /instance-note-types              < instance-note-types.tsv
+process /instance-types                   < instance-types.tsv
+process /modes-of-issuance                < modes-of-issuance.tsv
+process /material-types                   < material-types.tsv
+process /nature-of-content-terms          < nature-of-content-terms.tsv
+process /instance-statuses                < instance-statuses.tsv
+process /contributor-name-types           < contributor-name-types.tsv
+process /electronic-access-relationships  < electronic-access-relationships.tsv
+process /holdings-note-types              < holdings-note-types.tsv
+process /item-note-types                  < item-note-types.tsv
+process /identifier-types                 < identifier-types.tsv
+process /call-number-types                < call-number-types.tsv
+process /item-damaged-statuses            < item-damaged-statuses.tsv
