@@ -89,3 +89,4 @@ process /item-note-types                  < item-note-types.tsv
 process /identifier-types                 < identifier-types.tsv
 process /call-number-types                < call-number-types.tsv
 process /item-damaged-statuses            < item-damaged-statuses.tsv
+process /instance-relationship-types      < instance-relationship-types.tsv
