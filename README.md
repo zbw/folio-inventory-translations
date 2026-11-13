@@ -8,7 +8,7 @@ Invoke [update-translations](german/update-translations) to update the values of
 For example
 ```
 cd german
-./update-translations https://folio-demo.gbv.de/okapi diku diku_admin admin
+./update-translations https://folio-diku.example.com diku diku_admin admin
 ```
 
 ## Contributor Types
