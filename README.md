@@ -11,6 +11,10 @@ cd german
 ./update-translations https://folio-demo.gbv.de/okapi diku diku_admin admin
 ```
 
+## Contributor Types
+
+Contributor types cannot be translated because FOLIO references them by name and not by id.
+
 ## Invalid ISBN
 
 The identifier type `Invalid ISBN` (`/identifier-types/fcca2643-406a-482a-b760-7a7f8aec640e`) must not
