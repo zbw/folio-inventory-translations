@@ -1,14 +1,15 @@
 # folio-inventory-translations
 A place to store and manage FOLIO Inventory reference value translation files.
 
-Invoke [update-translations](german/update-translations) to update the values of a tenant by calling
+Change into the directory, then
+invoke [update-translations](update-translations) to update the values of a tenant by calling
 ```
-./update-translations <okapi_url> <tenant> <username> <password>
+../../update-translations <okapi_url> <tenant> <username> <password>
 ```
 For example
 ```
-cd german
-./update-translations https://folio-diku.example.com diku diku_admin admin
+cd locales/de-DE/
+../../update-translations https://folio-diku.example.com diku diku_admin admin
 ```
 
 ## Contributor Types
