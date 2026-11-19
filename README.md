@@ -27,8 +27,4 @@ This gets fixed for Ramsons:
 
 ## Double Quotes
 
-CSV requires proper masking if a double quote character is used:
-* Duplicate each double quote, and
-* enclose the value in double quotes.
-
-Example: `The foo "bar" baz.` becomes `"The foo ""bar"" baz."`.
+The tooling doesn't support the double quote character.
