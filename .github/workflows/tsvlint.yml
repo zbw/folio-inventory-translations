@@ -18,5 +18,10 @@ jobs:
           for f in locales/*/*.tsv
           do
             printf '%s\n' "$f"
+            if grep "\"" "$f"
+            then
+              echo "The tooling doesn't support the double quote character"
+              exit 1;
+            fi
             perl .github/workflows/tsvlint.pl < "$f"
           done
