@@ -24,3 +24,11 @@ be translated in Poppy and Quesnelia because mod-orders and mod-search reference
 This gets fixed for Ramsons:
 * [MODORDERS-1094](https://folio-org.atlassian.net/browse/MODORDERS-1094)
 * [MSEARCH-743](https://folio-org.atlassian.net/browse/MSEARCH-743)
+
+## Double Quotes
+
+CSV requires proper masking if a double quote character is used:
+* Duplicate each double quote, and
+* enclose the value in double quotes.
+
+Example: `The foo "bar" baz.` becomes `"The foo ""bar"" baz."`.
