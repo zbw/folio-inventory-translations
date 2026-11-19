@@ -5,14 +5,18 @@ on:
   workflow_dispatch:
 jobs:
   tsvlint:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
+    permissions:
+      contents: read
     steps:
-      - uses: actions/checkout@v2
-      - run: sudo apt install libtext-csv-perl
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - run: sudo apt-get install libtext-csv-perl
       - name: Check locales/*/*.tsv
         run: |
           for f in locales/*/*.tsv
           do
-            printf '%s' "$f"
-            cat "$f" | perl .github/workflows/tsvlint.pl
+            printf '%s\n' "$f"
+            perl .github/workflows/tsvlint.pl < "$f"
           done
